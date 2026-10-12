@@ -4,8 +4,8 @@ function calcOffset(outer, inner) {
 
 function unitValue(data, windowHeight, percentage) {
 
-    let max = maxValue(data);
-    let maxPixel = maxPixelValue(windowHeight, percentage);
+    const max = maxValue(data);
+    const maxPixel = maxPixelValue(windowHeight, percentage);
 
     return maxPixel / max;
 }
